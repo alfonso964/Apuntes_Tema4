@@ -1,30 +1,50 @@
-# Apuntes sobre Optimización de Código
-## Introducción a la Optimización de Código
-La optimización de código se refiere a mejorar el rendimiento, la legibilidad y la mantenibilidad del código sin alterar su comportamiento funcional.
+# 🛠️ Apuntes sobre Optimización de Código
 
-### Hediondez del Código (Code Smell)
-El término "hediondez del código" se refiere a indicios en el código que podrían sugerir problemas más profundos, aunque no son necesariamente errores. Algunos ejemplos son:
-- Código duplicado.
-- Funciones o métodos demasiado largos.
-- Nombres de variables poco descriptivos.
+## 🌟 Introducción
+La **optimización de código** consiste en mejorar aspectos como el rendimiento, la legibilidad y la mantenibilidad del código sin alterar su funcionamiento. Un código limpio y eficiente facilita el trabajo en equipo, reduce errores y mejora la escalabilidad de los proyectos.
 
-### Refactorización
-La refactorización es el proceso de reestructurar el código sin cambiar su funcionalidad. Algunas técnicas incluyen:
-- Renombrar variables.
-- Eliminar código redundante.
-- Extraer métodos de funciones largas.
+---
 
-### Análisis Estático de Código
-Los analizadores estáticos de código, como **linters**, se utilizan para detectar problemas potenciales sin ejecutar el código.
+## 🚨 Hediondez del Código (Code Smells)
+Los *code smells* son indicios que pueden señalar problemas estructurales. No son errores por sí mismos, pero sí señales de que el código puede mejorar.
 
-#### Herramientas de Análisis:
-- **Lint** (para C).
-- **SonarQube** (para Java).
-- **ESLint** (para JavaScript).
+Ejemplos comunes:
+- 📄 Código duplicado  
+- 🧩 Funciones demasiado largas  
+- 🌀 Nombres de variables poco claros  
 
-### Análisis Dinámico
-El análisis dinámico se realiza durante la ejecución del código, como la ejecución de pruebas unitarias.
+---
 
-#### Herramientas de Análisis Dinámico:
-- **JUnit** (para Java).
-- **Mocha** (para JavaScript).
+## 🧹 Refactorización
+La **refactorización** es el proceso de reescribir partes del código para que sea más claro y ordenado, sin modificar su funcionalidad.
+
+### Técnicas comunes:
+- ✏️ Renombrar variables para mayor claridad  
+- 🔥 Eliminar código innecesario o duplicado  
+- 📦 Extraer métodos de bloques largos para simplificar  
+
+---
+
+## 🧪 Análisis Estático de Código
+El análisis estático se realiza **sin ejecutar el programa**, y detecta errores potenciales, malas prácticas o violaciones de estilo.
+
+### 🛠 Herramientas útiles:
+- 🧼 `Lint` (para C)
+- 🌊 `SonarQube` (para Java)
+- 🔍 `ESLint` (para JavaScript)
+
+---
+
+## 🚀 Análisis Dinámico
+Este tipo de análisis se lleva a cabo **durante la ejecución** del código, normalmente mediante pruebas automatizadas.
+
+### 🧪 Herramientas comunes:
+- ✅ `JUnit` (Java)
+- 🧬 `Mocha` (JavaScript)
+
+---
+
+
+
+
+
