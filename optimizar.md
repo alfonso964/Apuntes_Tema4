@@ -44,8 +44,7 @@ Este tipo de análisis se lleva a cabo **durante la ejecución** del código, no
 
 ---
 
-## 🖼️ Imagen recomendada
-Puedes usar esta imagen para ilustrar visualmente el concepto de optimización y refactorización:
+
 
 
 
