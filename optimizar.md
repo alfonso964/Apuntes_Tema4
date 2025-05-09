@@ -1,48 +1,49 @@
 # 🛠️ Apuntes sobre Optimización de Código
 
 ## 🌟 Introducción
-La **optimización de código** consiste en mejorar aspectos como el rendimiento, la legibilidad y la mantenibilidad del código sin alterar su funcionamiento. Un código limpio y eficiente facilita el trabajo en equipo, reduce errores y mejora la escalabilidad de los proyectos.
+La optimización de código consiste en mejorar el rendimiento, la legibilidad y la mantenibilidad del código **sin alterar su funcionalidad**. Es esencial para mantener proyectos escalables y fáciles de entender.
 
 ---
 
 ## 🚨 Hediondez del Código (Code Smells)
-Los *code smells* son indicios que pueden señalar problemas estructurales. No son errores por sí mismos, pero sí señales de que el código puede mejorar.
+Se refiere a señales de que el código podría tener problemas estructurales. No son errores, pero indican que algo puede mejorarse.
 
-**Ejemplos comunes:**
+Ejemplos comunes:
 - 📄 Código duplicado  
 - 🧩 Funciones demasiado largas  
-- 🌀 Nombres de variables poco claros  
+- 🌀 Nombres de variables poco descriptivos  
 
 ---
 
 ## 🧹 Refactorización
-La **refactorización** es el proceso de reescribir partes del código para que sea más claro y ordenado, sin modificar su funcionalidad.
+La refactorización permite reestructurar el código manteniendo su comportamiento. Mejora la calidad sin cambiar el resultado del programa.
 
-**Técnicas comunes:**
-- ✏️ Renombrar variables para mayor claridad  
-- 🔥 Eliminar código innecesario o duplicado  
-- 📦 Extraer métodos de bloques largos para simplificar  
+Técnicas habituales:
+- ✏️ Renombrar variables  
+- 🔥 Eliminar código redundante  
+- 📦 Extraer métodos de funciones largas  
 
 ---
 
 ## 🧪 Análisis Estático de Código
-El análisis estático se realiza **sin ejecutar el programa**, y detecta errores potenciales, malas prácticas o violaciones de estilo.
+Se realiza sin ejecutar el código. Detecta errores potenciales y malas prácticas antes de compilar.
 
-**Herramientas útiles:**
-- 🧼 `Lint` (para C)  
-- 🌊 `SonarQube` (para Java)  
-- 🔍 `ESLint` (para JavaScript)  
+Herramientas comunes:
+- 🧼 Lint (para C)  
+- 🌊 SonarQube (para Java)  
+- 🔍 ESLint (para JavaScript)  
 
 ---
 
 ## 🚀 Análisis Dinámico
-Este tipo de análisis se lleva a cabo **durante la ejecución** del código, normalmente mediante pruebas automatizadas.
+Este análisis se realiza durante la ejecución, especialmente mediante pruebas automáticas.
 
-**Herramientas comunes:**
-- ✅ `JUnit` (Java)  
-- 🧬 `Mocha` (JavaScript)  
+Herramientas recomendadas:
+- ✅ JUnit (para Java)  
+- 🧬 Mocha (para JavaScript)  
 
 ---
+
 
 
 
