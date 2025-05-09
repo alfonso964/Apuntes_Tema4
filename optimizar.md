@@ -8,7 +8,7 @@ La **optimización de código** consiste en mejorar aspectos como el rendimiento
 ## 🚨 Hediondez del Código (Code Smells)
 Los *code smells* son indicios que pueden señalar problemas estructurales. No son errores por sí mismos, pero sí señales de que el código puede mejorar.
 
-Ejemplos comunes:
+**Ejemplos comunes:**
 - 📄 Código duplicado  
 - 🧩 Funciones demasiado largas  
 - 🌀 Nombres de variables poco claros  
@@ -18,7 +18,7 @@ Ejemplos comunes:
 ## 🧹 Refactorización
 La **refactorización** es el proceso de reescribir partes del código para que sea más claro y ordenado, sin modificar su funcionalidad.
 
-### Técnicas comunes:
+**Técnicas comunes:**
 - ✏️ Renombrar variables para mayor claridad  
 - 🔥 Eliminar código innecesario o duplicado  
 - 📦 Extraer métodos de bloques largos para simplificar  
@@ -28,19 +28,19 @@ La **refactorización** es el proceso de reescribir partes del código para que 
 ## 🧪 Análisis Estático de Código
 El análisis estático se realiza **sin ejecutar el programa**, y detecta errores potenciales, malas prácticas o violaciones de estilo.
 
-### 🛠 Herramientas útiles:
-- 🧼 `Lint` (para C)
-- 🌊 `SonarQube` (para Java)
-- 🔍 `ESLint` (para JavaScript)
+**Herramientas útiles:**
+- 🧼 `Lint` (para C)  
+- 🌊 `SonarQube` (para Java)  
+- 🔍 `ESLint` (para JavaScript)  
 
 ---
 
 ## 🚀 Análisis Dinámico
 Este tipo de análisis se lleva a cabo **durante la ejecución** del código, normalmente mediante pruebas automatizadas.
 
-### 🧪 Herramientas comunes:
-- ✅ `JUnit` (Java)
-- 🧬 `Mocha` (JavaScript)
+**Herramientas comunes:**
+- ✅ `JUnit` (Java)  
+- 🧬 `Mocha` (JavaScript)  
 
 ---
 
