@@ -49,4 +49,3 @@ Puedes usar esta imagen para ilustrar visualmente el concepto de optimización y
 
 
 
-
