@@ -40,10 +40,7 @@ Este análisis se realiza durante la ejecución, especialmente mediante pruebas 
 
 Herramientas recomendadas:
 - [✅] JUnit (para Java)  
-- [🧬] Mocha (para JavaScript)
-
-![JUnit](image.png)
-![Mocha](image-1.png)
+- [🧬] Mocha (para JavaScript)  
 
 ---
 
